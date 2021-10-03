@@ -94,7 +94,8 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-
+   
+   /*font-family: 'Yeseva One', cursive;*/
 
 html {
   background-color: #fff;
@@ -102,10 +103,11 @@ html {
 }
 
 body {
-  font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Raleway', sans-serif;
   padding: 2em;
   font-size: 1.25em;
   height: 100%;
+  background-color: #74878f;
 }
 
 .wrapper {
@@ -120,12 +122,16 @@ body {
   color: #fff;
   line-height: 1.5em;
   font-size: 1.6em;
-  background-color: #f16059;
-  height: 300px;
   width: 30%;
+  padding: 0 30px;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.div-1,
+.div-2 {
+    border-right: #fff solid 1px;
 }
 
 
